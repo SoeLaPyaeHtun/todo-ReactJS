@@ -1,0 +1,19 @@
+{
+    "todolist": [
+        {
+            "id" : 1,
+            "task": "To Study Something",
+            "complete": false
+        },
+        {
+            "id" : 2,
+            "task": "To Study Nothing",
+            "complete": true
+        },
+        {
+            "id" : 1,
+            "task": "To Study ",
+            "complete": false
+        }
+    ]
+}  
