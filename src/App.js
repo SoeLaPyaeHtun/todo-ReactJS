@@ -1,24 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import List from "./components/List";
+import Form from "./components/Form";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <div className="w-full h-screen bg-zinc-800 flex flex-col gap-y-10 justify-center items-center">
+    <h1 className="text-4xl text-center text-white font-bold" >Your ToDo List</h1>
+    <Form />
+    <List />
+   
+  </div>
   );
 }
 
